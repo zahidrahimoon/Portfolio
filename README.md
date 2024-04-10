@@ -7,10 +7,6 @@ This repository contains the source code for my personal portfolio website. The 
 - **HTML:** Used for the structure and content of the website.
 - **CSS:** Used for styling and layout of the website.
 - **JavaScript:** Used for dynamic behavior and interactivity.
-- **External Libraries:**
-  - **[Animate.css](https://animate.style/):** Used for adding CSS animations to elements on the website.
-  - **[GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/):** Used for creating advanced animations and effects.
-  - **[ScrollReveal](https://scrollrevealjs.org/):** Used for animating elements as they become visible during scrolling.
 
 ## Features:
 
