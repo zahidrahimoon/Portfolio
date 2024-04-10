@@ -928,10 +928,10 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 /**
- * responsive for large than 575px screen
+ * responsive for large than 380px screen
  */
 
-@media (min-width: 575px) {
+@media (min-width: 380px) {
 
   /**
    * CUSTOM PROPERTY
