@@ -954,7 +954,7 @@ body.active { overflow: hidden; }
    */
 
   .container {
-    max-width: 540px;
+    max-width: 380px;
     width: 100%;
     margin-inline: auto;
   }
@@ -968,8 +968,8 @@ body.active { overflow: hidden; }
    */
 
   .navbar {
-    max-width: 500px;
-    right: -500px;
+    max-width: 380px;
+    right: -380px;
   }
 
   .navbar.active { transform: translateX(-500px); }
