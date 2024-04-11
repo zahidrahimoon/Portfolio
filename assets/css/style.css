@@ -931,7 +931,7 @@ body.active { overflow: hidden; }
  * responsive for large than 365px screen
  */
 
-@media (min-width: 365px) {
+@media (min-width: 325px) {
 
   /**
    * CUSTOM PROPERTY
