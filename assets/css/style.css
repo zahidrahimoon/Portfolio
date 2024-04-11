@@ -943,7 +943,7 @@ body.active { overflow: hidden; }
      * spacing
      */
 
-    --section-padding: 30px;
+    --section-padding: 40px;
     overflow-x: hidden;
 
   }
