@@ -944,6 +944,7 @@ body.active { overflow: hidden; }
      */
 
     --section-padding: 40px;
+    overflow-x: hidden;
 
   }
 
@@ -1025,7 +1026,7 @@ body.active { overflow: hidden; }
 
   .portfolio-list {
     display: flex;
-    overflow-x: auto; 
+    overflow-x: hidden; 
     gap: 10px; 
     padding: 10px 0; 
   }
