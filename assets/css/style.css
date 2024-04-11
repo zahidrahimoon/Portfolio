@@ -972,7 +972,7 @@ body.active { overflow: hidden; }
     right: -380px;
   }
 
-  .navbar.active { transform: translateX(-500px); }
+  .navbar.active { transform: translateX(-380px); }
 
 
 
