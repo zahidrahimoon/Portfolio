@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Zahid Rahimoon- Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+              <img src="./assets/images/me.png" alt="Muhammad Zahid" width="80" style="border-radius: 50%; margin: 10px;" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Muhammad Zahid">Muhammad Zahid</h1>
+
+            <p class="title">MERN Stack developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:zahidrahimoon22@gmail.com" class="contact-link"
+                  >zahidrahimoon22@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel: +923131239619" class="contact-link"
+                  >+923131239619</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Gulshan Karachi Pakistan</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/zahidrahimoon"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/zahidrahimoon"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Certificates</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Muhammad Zahid, a skilled MERN stack developer with experience in internships, open-source contributions, and delivering custom projects. Passionate about impactful work, continuous growth, and collaborating with dynamic teams.
+            </p>
+          </section>
+
+          <!--  
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">My Top Skills</h3>
+        
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/full.png"
+                  alt="MERN stack icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MERN Stack Development</h4>
+        
+                <p class="service-item-text">
+                  Proficient in building full-stack web applications using MongoDB, Express.js, React, and Node.js.
+                </p>
+              </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/web.png"
+                  alt="React.js icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">React.js Development</h4>
+        
+                <p class="service-item-text">
+                  Expertise in developing dynamic, responsive, and interactive user interfaces with React.js.
+                </p>
+              </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/back.png"
+                  alt="PHP development icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+        
+                <p class="service-item-text">
+                  Skilled in crafting robust and secure backend solutions using PHP & NodeJs
+                </p>
+              </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/full.png"
+                  alt="Fullstack development icon"
+                  width="40"
+                />
+              </div>
+        
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Development</h4>
+        
+                <p class="service-item-text">
+                  Versatile in end-to-end web application development, integrating frontend and backend seamlessly.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <!-- 
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div> -->
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <!-- Education Section -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Bachelors in Computer Science
+              </h4>
+      
+              <span>2023 — 2027</span>
+      
+              <p class="timeline-text">
+                -Dawood University
+                <br />
+                -Engineering & Technology
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Web Developement (Diploma)
+              </h4>
+      
+              <span>2023 — 2024</span>
+      
+              <p class="timeline-text">
+                Aptech Pakistan
+              </p>
+            </li>
+          </ol>
+        </section>
+      
+        <!-- Experience Section -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <div class="timehead">
+                <h4 class="h4 timeline-item-title">
+                  Frontend Intern
+                </h4>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/skoQmxqhtgWmKv2pm/km4rw7dihDr3etqom_skoQmxqhtgWmKv2pm_jJTNss49mkA94zkDj_1734362706814_completion_certificate.pdf" 
+                   target="_blank" 
+                   class="certificate-link">
+                   <img src="./assets/images/link-3801.png">
+                  <!-- <i class="fas fa-arrow-right" title="View Certificate"></i> -->
+                </a>
+              </div>
+              
+
+              <h5 class="h5 timeline-item-title">Front-End Software Engineering Job
+                Simulation at Skyscanner
+                </h5>
+      
+              <span>December</span>
+      
+              <p class="timeline-text">
+                • Worked on web project involving React,Javascript & Backpack.
+                <br />
+                • Create a Backpack React Web App
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <div class="timehead">
+                <h4 class="h4 timeline-item-title">
+                  Frontend Intern
+                </h4>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/2t4QruSmKkrN8jr7G/7q8DN5enMzSHqLwev_2t4QruSmKkrN8jr7G_jJTNss49mkA94zkDj_1734282627171_completion_certificate.pdf" 
+                   target="_blank" 
+                   class="certificate-link">
+                   <img src="./assets/images/link-3801.png">
+                  <!-- <i class="fas fa-arrow-right" title="View Certificate"></i> -->
+                </a>
+              </div>
+              <h5 class="h5 timeline-item-title">
+                City of Moreton Bay Entrepreneurship & Innovation: Web Development Job Simulation on Forage 
+              </h5>
+      
+              <span>November 2024</span>
+      
+              <p class="timeline-text">
+                • Completed a job simulation involving website planning and creation. 
+                <br />
+                • Created a sitemap and userflow using a diagram creation tool.
+                <br />
+                • Used HTML & CSS to create a landing page.
+              </p>
+            </li>
+    
+          </ol>
+        </section>
+      
+        <!-- Skills Section -->
+        <section class="skill">
+          <h2 class="h2 article-title">Skills</h2>
+      
+          <h3 class="h3 skills-title">Coding skills</h3>
+      
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="80">80%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">70%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind</h5>
+                <data value="80">80%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootsrap</h5>
+                <data value="60">60%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java Script</h5>
+                <data value="50">50%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="60">60%</data>
+              </div>
+      
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Typescript</h5>
+              <data value="25">25%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 25%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Next Js</h5>
+              <data value="25">25%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 25%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Node Js</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Express</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">MySQL</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">MongoDB</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item"></li>
+            <div class="title-wrapper">
+              <h5 class="h5">Strapi</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item"></li>
+            <div class="title-wrapper">
+              <h5 class="h5">Clerk</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item"></li>
+            <div class="title-wrapper">
+              <h5 class="h5">Firebase</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item"></li>
+            <div class="title-wrapper">
+              <h5 class="h5">Php</h5>
+              <data value="50">50%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 50%"></div>
+            </div>
+          </li>
+
+          <li class="skills-item"></li>
+            <div class="title-wrapper">
+              <h5 class="h5">Laravel</h5>
+              <data value="25">25%</data>
+            </div>
+    
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 25%"></div>
+            </div>
+          </li>
+        </ul>
+
+        </section>
+      
+        <!-- Tools & Technologies Section -->
+        <section class="client">
+          <h3 class="h3 skills-title">Tools and Technologies</h3>
+      
+          <ul class="skills-list content-card clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/strapi.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/bootstrap.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/tailwind.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/mern.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/clerk.jpeg"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/firebase.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/sqlserver.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/react.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/vscode.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="#">
+                <img
+                  src="./assets/images/tools/github.png"
+                  alt="client logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/tomato"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tomato Food Delivery website</h3>
+
+                  <p class="project-category">MERN STACK</p>
+                </a>
+              </li>
+
+              <li
+              class="project-item active"
+              data-filter-item
+              data-category="web development"
+            >
+              <a
+                href="https://github.com/zahidrahimoon/college-mern"
+              >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/projects/10.png"
+                    alt="finance"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <h3 class="project-title">College Website</h3>
+
+                <p class="project-category">MERN STACK & MySQL</p>
+              </a>
+            </li>
+
+            <li
+            class="project-item active"
+            data-filter-item
+            data-category="web development"
+          >
+            <a
+              href="https://github.com/zahidrahimoon/tomato"
+            >
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img
+                  src="./assets/images/projects/11.png"
+                  alt="finance"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">GYM Landing Page</h3>
+
+              <p class="project-category">MERN STACK</p>
+            </a>
+          </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/Zara-Therapy"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Zara Therapy</h3>
+
+                  <p class="project-category">HTML CSS JS</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/zahidrahimoon/resumebuilder">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/3.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Resume Builder</h3>
+
+                  <p class="project-category">React & Strapi</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/LUXELOOM"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">LUXELOOM Clothing Brand</h3>
+
+                  <p class="project-category">React</p>
+                </a>
+              </li>
+
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/BrainwaveClone"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/5.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brainwave AI Landing Page</h3>
+
+                  <p class="project-category">React</p>
+                </a>
+              </li>
+
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/Grillifoodpage"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/6.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Grilli Food Landing Page</h3>
+
+                  <p class="project-category">React</p>
+                </a>
+              </li>
+
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/Rahi-Dev"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/8.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Insta Clone Landing Page</h3>
+
+                  <p class="project-category">React & Material Ui</p>
+                </a>
+              </li>
+
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/AnimatedLandingPage"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/7.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Animated Landing Page</h3>
+
+                  <p class="project-category">Javascript & GSAP</p>
+                </a>
+              </li>
+
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/zahidrahimoon/movie-app"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/9.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cinemaze</h3>
+
+                  <p class="project-category">Laravel & MySQL </p>
+                </a>
+              </li>
+
+            </ul>
+          </section>
+        </article>
+
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <!-- <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li> -->
+              <h3 class="h3 content-card" style="color: hsl(45, 100%, 71%)">
+                No Blog to show yet
+              </h3>
+            </ul>
+          </section>
+        </article>
+
+
+        <!-- 
+        certifactes
+        -->
+        <article class="portfolio" data-page="certificates">
+          <header>
+            <h2 class="h2 article-title">Cerificates</h2>
+          </header>
+
+          <section class="projects">
+
+            <ul class="project-list">
+
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxOTEwIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzY2Njc0M183ODg2NjY4MTczNDE1Mjc5NjY3NS5wbmciLCJ1c2VybmFtZSI6Ik11aGFtbWFkIFphaGlkICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2F7666743_78866681734152796675.png&_branch_match_id=1367537938428546944&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1s8yM%2FdOLU8tygpIsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwDDk71ZPwAAAA%3D%3D"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/certificates/MERN.PNG"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Full Stack Web Development</h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+                            
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzI1IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNTAyNjQxNV8xNzEyNDA4NDYyLnBuZyIsInVzZXJuYW1lIjoiTXVoYW1tYWQgWmFoaWQgIn0&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_5026415_1712408462.png&_branch_match_id=1367537938428546944&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1jdPzXf0ygosdPJMsq8rSk1LLSrKzEuPTyrKLy9OLbL1AapJTfHMAwCWTuigPwAAAA%3D%3D"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/certificates/React.PNG"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">React Development</h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <img
+                src="./assets/images/terra1.gif"
+                alt=""
+                width="1152"
+                height="648"
+              />
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/myyowqaa"
+              method="POST"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button
+                class="form-btn"
+                type="submit"
+                value="send"
+                disabled
+                data-form-btn
+              >
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
